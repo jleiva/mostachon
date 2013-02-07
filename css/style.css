@@ -1,0 +1,100 @@
+/* seibor */
+
+/* #Grid
+================================================== */
+
+.grid {
+	margin: 0 auto;
+	overflow: hidden;
+	background: rgba(0,0,0,0.02);
+	max-width: 940px;
+}
+.col {
+	margin-bottom: 20px;
+}
+.row {background: red;
+	height: 20px;
+}
+.header,
+.footer {
+	clear: both;
+}
+.footer {
+	margin-bottom: 0;
+}
+
+/* view grid display
+================================================== */
+.views-view-grid {}
+/* rows */
+.gr {}
+.row-first {}
+.row-last {}
+
+/* columns */
+.gc {}
+.col-first {}
+.col-last {}
+
+/* #Site styles
+================================================== */
+
+
+/* #media queries
+================================================== */
+
+@media only screen and (min-width: 768px) {
+
+	/* main content con sidebars activados */
+	.one-sidebar .main-content {
+		width: 66.60%;
+		float: left;
+	}
+	
+	.sidebar-first .main-content {
+		float: right;
+	}
+	.sidebar-second .main-content {
+		float: left
+	}
+	
+	/* sidebars */
+	.col.sidebar-first {
+		width: 31.25%;
+		float: left;
+		margin-right: 2.08%;
+		background: yellow;
+	}
+	.col.sidebar-second {
+		width: 31.25%;
+		float: right;
+		margin-left: 2.08%;
+		background: green;
+	}
+
+	/* columnas */
+	.col.one-third,
+	.col.two-thirds {
+		float: left;
+	}
+	.one-third {
+		width: 30%;
+		margin-right: 5%;
+		background: #e1e1e1;
+	}
+	.two-thirds {
+		width: 65%;
+		margin-right: 5%;
+	}
+	
+	/* cleanup de margenes */
+	.first {
+		margin-left: 0;
+	}
+	.last {
+		margin-right: 0;
+	}
+
+}
+
+
