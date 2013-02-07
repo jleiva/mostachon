@@ -53,7 +53,7 @@ Indice:
 	- system.theme.css
 	- system.messages.css
 	- system.menus.css
-	- toolbar.css
+	- toolbar.css (no remover si se utilizar toolbar o admin_menu_toolbar)
 
 #Detalles:
 ::::::::::
