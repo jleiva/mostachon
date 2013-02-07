@@ -275,8 +275,10 @@ bottom : -.25em; }
 	line-height: 1.125em; /* 18 / 16 = 1.125 */
 	margin-bottom: 12px; 
 	}
+	/* removes margins from ul's & li's in menus - "menu wrapper" must be enabled in the theme */  
+	ul.menu,
 	ul.menu li { 
-	margin-bottom: 0; 
+	margin: 0; 
 	}
 	ul.large li {
 	line-height: 1.31em; /* 21 / 16 = 1.3125 */
@@ -756,9 +758,6 @@ ul.menu {
   list-style: none;
   text-align: left; /* LTR */
 }
-ul.menu li {
-  margin: 0 0 0 0.5em; /* LTR */
-}
 ul li.expanded {
   list-style-image: url(../drupal/menu-expanded.png);
   list-style-type: circle;
@@ -774,7 +773,7 @@ ul li.leaf {
 li.expanded,
 li.collapsed,
 li.leaf {
-  padding: 0.2em 0.5em 0 0; /* LTR */
+  padding: 0; /* LTR */
   margin: 0;
 }
 li a.active {
