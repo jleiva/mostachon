@@ -47,6 +47,7 @@ body {
 /* 	classes para usar para funciones comunes
 	m‡s que todo en cosas hechas a pata, headers, footers
 	No recomendable para contenido din‡mico desde drupal: views, blocks, otros
+	El class hideText tiene la regla *text-transform: capitalize; que aplica solo para IE6 y 7
 */
 
 .clear 		{clear: both;}
@@ -54,8 +55,9 @@ body {
 .floatr 	{float: right;}
 .floatn 	{float: none;}
 .hide 		{display: none;}
-.hideText 	{text-indent: -5000px; overflow: hidden;}
+.hideText 	{text-indent: -9000px; overflow: hidden; *text-transform: capitalize;}
 .dblock 	{display: block;}	
+.wide 		{width: 100%;}
 
 img.left {margin:0.42em 0.2em 0 0;}
 img.right {margin: 0.42em 0 0 0.2em;}	
