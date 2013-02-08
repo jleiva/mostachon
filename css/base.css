@@ -457,7 +457,7 @@ legend {
 fieldset {
 	border: none;
 }
-fieldset div {
+fieldset > div {
 	margin-left:10px;
 }
 fieldset fieldset {
