@@ -410,7 +410,7 @@ bottom : -.25em; }
 		width: 210px;
 		max-width: 100%;
 		display: block;
-		margin-bottom: 1s0px;
+		margin-bottom: 10px;
 		background: #fff; }
 	select { 
 		padding: 0; }
