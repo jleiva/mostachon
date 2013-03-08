@@ -923,6 +923,17 @@ ul.links,
 .clearfix {
   display: block;
 }
+
+/*
+
+removido 
+html[xmlns] .clearfix {
+    display: block;
+}
+
+http://stackoverflow.com/questions/4604436/is-there-a-non-trivial-purpose-for-defining-a-css-style-for-htmlxmlns
+*/
+
 * html .clearfix {
   height: 1%;
 }
