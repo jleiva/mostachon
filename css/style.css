@@ -12,7 +12,8 @@
 .col {
 	margin-bottom: 20px;
 }
-.row {background: red;
+.row {
+	background: red;
 	height: 20px;
 }
 .header,
