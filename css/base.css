@@ -297,6 +297,9 @@ bottom : -.25em; }
 	img { 
 		max-width: 100%;
 		height: auto; 
+		max-width: none\0/; /* IE8 - IE9 overrides responsive images http://www.456bereastreet.com/archive/201202/using_max-width_on_images_can_make_them_disappear_in_ie8/ */
+		*max-width: none;	/* IE7, removes max width  */
+		*width: auto; 		/* IE7, removes responsive images  */
 	}
 
 /* Box Sizing
